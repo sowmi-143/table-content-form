@@ -4,5 +4,9 @@
     "@emotion/styled": "^11.14.1",
     "@mui/icons-material": "^7.3.4",
     "@mui/material": "^7.3.4"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+    "deploy" : "vite build && gh-pages -d dist"
   }
 }
